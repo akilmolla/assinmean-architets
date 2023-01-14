@@ -1,0 +1,94 @@
+/* -----------------
+        common style area
+---------------------- */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:ital,wght@0,500;1,500;1,600&family=Work+Sans:wght@500&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.main-contianer {
+    margin: 0px auto;
+    width: 80%;
+    background-color: antiquewhite;
+}
+
+/* --------------------------------
+      nav bar style area
+    ----------------------------- */
+
+.brand-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.brant-tittle,
+.right-side {
+    margin-top: 50px;
+}
+
+
+.brant-tittle {
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+
+}
+
+.right-side {
+    display: flex;
+    gap: 15px;
+}
+
+.menu-area ul>li,
+a {
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+
+}
+
+/* -----------------------------
+    banner center area style
+------------------------------ */
+
+.banner-main-center- {
+    margin-top: 130px;
+    text-align: center;
+
+}
+
+.center-text {
+    font-weight: 700;
+    font-size: 64px;
+    color: #131313;
+}
+
+.center-culomtext {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 5px;
+    border: 0;
+
+}
