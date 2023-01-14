@@ -72,13 +72,20 @@ a {
     font-weight: 700;
     font-size: 64px;
     color: #131313;
+    margin-bottom: 15px;
 }
 
 .center-culomtext {
     font-weight: 400;
     font-size: 16px;
     color: #727272;
-    margin-bottom: 30px;
+    width: 868px;
+    height: 52px;
+    margin: 30px;
+    line-height: 26px;
+    text-align: center;
+    margin: 0px auto;
+
 }
 
 .btn-primary {
@@ -96,11 +103,63 @@ a {
 }
 
 /* ---------------------
- banner imeges area
+ banner images area
 -------------------- */
 .images-banner>img {
-     width: 100%;
-    height: 100%; 
+    width: 100%;
+    height: 100%;
+}
+
+/* -----------------
+    quick style area
+----------------- */
+.quick-blogs {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 85px;
+}
+
+.quick-image-leftsit {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.quick-imgcut {
+    width: 250px;
+    height: 250px;
+}
+
+.quick-heading {
+    width: 468px;
+    height: 106px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+.gray-text {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+}
+
+.glod-text {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FF900E;
+}
+
+.quick-para {
+    width: 537px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 10px;
 }
 
 
@@ -110,8 +169,15 @@ a {
 
  breaking point  & responsive mobile divce
  ---------------------------- */
- @media screen and (max-width: 576px) {
-    .brand-name{
+@media screen and (max-width: 576px) {
+    .brand-name,.quick-blogs {
         flex-direction: column;
     }
- }
+    .quick-image-leftsit{
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 aut;
+    }
+    .quick-text-rightsit{
+        margin: 0 auto;
+    }
+}
