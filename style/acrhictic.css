@@ -162,22 +162,96 @@ a {
     margin-bottom: 10px;
 }
 
+/* ------------------------------
 
+  features left  style start
 
+---------------------------- */
+.main-features {
+    margin-top: 130px;
+    display: flex;
+    gap: 146px;
+    align-items: center;
+}
+
+.featur-main-heading {
+
+    border-left: 4px solid red;
+}
+
+.sub-featur {
+    margin-left: 21px;
+    width: 450px;
+    height: 106px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+
+}
+
+.featur-para {
+    margin-top: 24px;
+    width: 586px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+/* ----------
+ digital menu are
+------------ */
+.feature-version{
+    margin-bottom: 20px;
+}
+.sub-version {
+    margin: 30px;
+}
+
+.upsub-version {
+    height: 23px;
+    left: 273px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    margin-bottom: 10px;
+
+}
+
+.uppara-version {
+    width: 514px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.feature-ing{
+    width: 100%;
+    height: 800px;
+}
 
 /* ------------------------------
 
  breaking point  & responsive mobile divce
  ---------------------------- */
 @media screen and (max-width: 576px) {
-    .brand-name,.quick-blogs {
+
+    .brand-name,
+    .quick-blogs {
         flex-direction: column;
     }
-    .quick-image-leftsit{
-        grid-template-columns: repeat(1,1fr);
+
+    .quick-image-leftsit {
+        grid-template-columns: repeat(1, 1fr);
         margin: 0 aut;
     }
-    .quick-text-rightsit{
+
+    .quick-text-rightsit {
         margin: 0 auto;
+
     }
 }
