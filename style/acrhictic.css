@@ -423,4 +423,7 @@ main{
         margin: 0 auto;
 
     }
+    .center-culomtext{
+        width: 400px;
+    }
 }
