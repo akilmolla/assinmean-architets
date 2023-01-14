@@ -409,14 +409,25 @@ main{
  ---------------------------- */
 @media screen and (max-width: 576px) {
 
-    .brand-name,
-    .quick-blogs,.main-features,.awards-area,.company {
+    .brand-name{
+        flex-direction: column;
+    }
+    .quick-blogs{
+        flex-direction: column;
+    }
+    .main-features{
+        flex-direction: column;
+    }
+    .awards-area{
+        flex-direction: column;
+    }
+    .company {
         flex-direction: column;
     }
 
     .quick-image-leftsit {
         grid-template-columns: repeat(1, 1fr);
-        margin: 0 aut;
+        
     }
 
     .quick-text-rightsit {
