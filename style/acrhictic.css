@@ -57,6 +57,57 @@ a {
     color: #424242;
 
 }
+/* -----------------
+all button tag
+---------------------- */
+.btn-primary {
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 50px;
+
+}
+.btn-primary2 {
+    width: 300px;
+    height: 300px;
+    font-weight: 600;
+    font-size: 10px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FF900E;
+    border-radius: 15px;
+    border: 0;
+    margin-bottom: 50px;
+
+}
+.years-ten{
+    font-size: 4rem;
+    font-weight: 700;
+}
+h6{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+/* --------------------------
+ psudo elemet used only
+----------------------- */
+.main-features{
+     position: relative; 
+}
+.btn-primary2{
+    position: absolute;
+    left:500px;
+    top: 450px;
+    
+    
+   
+}
 
 /* -----------------------------
     banner center area style
@@ -88,19 +139,7 @@ a {
 
 }
 
-.btn-primary {
-    width: 180px;
-    height: 64px;
-    font-weight: 600;
-    font-size: 20px;
-    text-align: center;
-    color: #FFFFFF;
-    background: #FF900E;
-    border-radius: 5px;
-    border: 0;
-    margin-bottom: 50px;
 
-}
 
 /* ---------------------
  banner images area
@@ -368,7 +407,7 @@ main{
 @media screen and (max-width: 576px) {
 
     .brand-name,
-    .quick-blogs {
+    .quick-blogs,.main-features,.awards-area,.company {
         flex-direction: column;
     }
 
