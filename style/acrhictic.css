@@ -104,11 +104,14 @@ h6{
     position: absolute;
     left:550px;
     top: 450px;
-    
-    
-   
 }
+  :hover.price-contain{
+    transform: rotate(145deg);
+ }
 
+.price-contain{
+    transition: transform, 5s, height 2s, background-color 2s, transform 3s;
+}
 /* -----------------------------
     banner center area style
 ------------------------------ */
